@@ -1,5 +1,7 @@
 # 🦚 Tavoos Dev
 
+![Tavoos Dev](/pic/Tavoos.Dev.png)
+
 > **Learn. Build. Share.**
 
 Welcome to **Tavoos Dev** — my personal space for documenting the things I learn, build, discover, and share throughout my journey in technology.
