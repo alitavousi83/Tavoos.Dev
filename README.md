@@ -11,6 +11,9 @@ It contains the resources, notes, scripts, ideas, content plans, and materials I
 
 ---
 
+
+---
+
 ## 📂 What's Inside?
 
 ### 💻 Programming
@@ -97,3 +100,16 @@ New projects, notes, resources, experiments, and ideas will be added continuousl
 **This is not just a repository.**
 
 **It's a record of the journey. 🦚**
+
+---
+
+
+```
+
+REMEMBER :
+
+fist post : 13:50 
+
+most fast view : 17:45
+
+```
