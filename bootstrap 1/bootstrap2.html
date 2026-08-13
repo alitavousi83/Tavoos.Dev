@@ -260,6 +260,52 @@
 
             color: white;
         }
+        /* =====================================================
+   PREMIUM 3D CARD HOVER
+===================================================== */
+
+.premium-card {
+    width: 380px;
+
+    background: rgba(255, 255, 255, 0.06);
+
+    backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    border-radius: 28px;
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.45),
+        0 0 60px rgba(99, 102, 241, 0.12);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s cubic-bezier(.2,.8,.2,1),
+        box-shadow 0.3s ease;
+
+    transform-style: preserve-3d;
+
+    perspective: 1200px;
+}
+
+
+/* وقتی موس روی کارت میاد */
+
+.premium-card:hover {
+
+    transform:
+        perspective(1200px)
+        rotateY(12deg)
+        rotateX(5deg)
+        translateY(-12px)
+        scale(1.1);
+
+    box-shadow:
+        0 45px 100px rgba(0, 0, 0, 0.55),
+        0 0 100px rgba(99, 102, 241, 0.25);
+}
     </style>
 </head>
 
@@ -267,18 +313,7 @@
 <body>
 
 
-    <!-- =====================================================
-         SCREEN RECORD #1
-         BOOTSTRAP CARD STRUCTURE
-    ====================================================== -->
-
     <div class="card premium-card border-0">
-
-        <!-- =================================================
-             SCREEN RECORD #2
-             VISUAL SECTION
-        ================================================== -->
-
         <div class="card-visual">
 
             <div class="visual-icon">
@@ -286,62 +321,32 @@
             </div>
 
         </div>
-
-
-        <!-- =================================================
-             SCREEN RECORD #3
-             CARD BODY
-        ================================================== -->
-
         <div class="card-body card-content">
-
             <span class="badge-custom">
                 PREMIUM
             </span>
-
             <h2 class="card-title">
                 Build Faster
             </h2>
-
             <p class="card-description">
                 Create beautiful and responsive
                 interfaces without unnecessary
                 complexity.
             </p>
-
-
-            <!-- =================================================
-                 SCREEN RECORD #4
-                 PRICE
-            ================================================== -->
-
             <div class="price">
                 $49
                 <span>/ month</span>
             </div>
-
-
-            <!-- =================================================
-                 SCREEN RECORD #5
-                 BUTTONS
-            ================================================== -->
-
             <div class="d-flex gap-2">
-
                 <button class="btn btn-premium btn-main flex-grow-1">
                     Get Started
                 </button>
-
                 <button class="btn btn-premium btn-outline-custom">
                     →
                 </button>
-
             </div>
-
         </div>
-
     </div>
-
 
 </body>
 </html>

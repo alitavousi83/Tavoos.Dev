@@ -1,0 +1,46 @@
+/* =====================================================
+   PREMIUM 3D CARD HOVER
+===================================================== */
+
+.premium-card {
+    width: 380px;
+
+    background: rgba(255, 255, 255, 0.06);
+
+    backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    border-radius: 28px;
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.45),
+        0 0 60px rgba(99, 102, 241, 0.12);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.7s cubic-bezier(.2,.8,.2,1),
+        box-shadow 0.7s ease;
+
+    transform-style: preserve-3d;
+
+    perspective: 1200px;
+}
+
+
+/* وقتی موس روی کارت میاد */
+
+.premium-card:hover {
+
+    transform:
+        perspective(1200px)
+        rotateY(12deg)
+        rotateX(5deg)
+        translateY(-12px)
+        scale(1.02);
+
+    box-shadow:
+        0 45px 100px rgba(0, 0, 0, 0.55),
+        0 0 100px rgba(99, 102, 241, 0.25);
+}
