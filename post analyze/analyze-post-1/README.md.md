@@ -2,6 +2,18 @@
 
 اول: Reel اولت واقعاً بد نبوده
 
+![analyze](./pics/1.jpg)
+![analyze](./pics/2.jpg)
+![analyze](./pics/3.jpg)
+![analyze](./pics/4.jpg)
+![analyze](./pics/5.jpg)
+![analyze](./pics/6.jpg)
+
+
+
+
+
+
 بعد از حدود یک روز:
 
 👀 1,296 Views
