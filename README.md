@@ -103,13 +103,3 @@ New projects, notes, resources, experiments, and ideas will be added continuousl
 
 ---
 
-
-```
-
-REMEMBER :
-
-fist post : 13:50 
-
-most fast view : 17:45
-
-```
