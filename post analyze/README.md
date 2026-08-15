@@ -1,3 +1,3 @@
-|day|subject|format|p.time|viwe|Viewers|
-|---|-------|------|------|-----|-----|
-|1️⃣|markdown|Reals|13:50|1365|1168|
+|day|subject|format|posting time|
+|---|-------|------|------|
+|1️⃣|markdown|Reals|13:50|
