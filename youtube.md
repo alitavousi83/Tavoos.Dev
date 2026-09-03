@@ -74,7 +74,7 @@ Because this isn't the end of my story.
 
 It's the beginning.
 
-From now on, I'm going to document the journey.
+From now on, I'm going to document my journey.
 
 What I learn.
 
